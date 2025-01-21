@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: KinesisApplication
+
+aws:
+  region: us-east-1
+  streamName: Kinesis_Trial
+  credentials:
+    accessKey: AKIAR7HWYBUZLVCZDUJV
+    secretKey: T36Zg/DkH9Sn+LvfDNwdpqrQE0+YAAIOp9p0ysJ3
+
+  kinesis:
+    stream:
+      name: your-kinesis-stream-name
+    polling:
+      interval-ms: 5000
+    shard:
+      id: shardId-000000000000
+
+
