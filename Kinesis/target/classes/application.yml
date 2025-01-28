@@ -6,8 +6,8 @@ aws:
   region: us-east-1
   streamName: Kinesis_Trial
   credentials:
-    accessKey: AKIAR7HWYBUZLVCZDUJV
-    secretKey: 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
+    accessKey:
+    secretKey: 
 
   kinesis:
     stream:
